@@ -96,40 +96,6 @@ The spider aims to scrape polling data and process it for better insights. The p
 - os module
 
 ---
-
-### Installation
-
-1. Clone the repository to your local machine.
-   
-   ```bash
-   git clone <repository_url>
-   ```
-
-2. Navigate to the **polling_economist** directory.
-
-   ```bash
-   cd polling_economist
-   ```
-
-3. Install the required libraries and dependencies using the provided environment.
-
-   ```bash
-   source env/bin/activate
-   pip install -r requirements.txt
-   ```
-
----
-
-### How to Run
-
-Once you have installed all dependencies, you can run the spider with a single command:
-
-```bash
-python main.py  # Assuming the main driver script is named main.py
-```
-
----
-
 ### Features & Functions
 
 1. **Data Integrity and Robustness Functions** - Functions that ensure the data's quality and handle errors or missing values.

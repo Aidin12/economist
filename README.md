@@ -1,7 +1,64 @@
 # economist
 Nidia's Spider To Scrape Polling Data
-Sure! If the folder `polling_economist` is a scrapy spider and also a git repository with its own virtual environment, then you might be looking for something similar to the following README:
-**README.md for polling_economist**
+
+This spider scrapes data from the `polling_economist` site. It's designed to be run in its own virtual environment to ensure compatibility and dependency separation.
+
+## Prerequisites
+
+- Make sure you have Python installed.
+- Git must be installed if you're cloning the repository.
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone <repository_url>
+```
+
+2. Navigate to the repository folder:
+
+```bash
+cd polling_economist
+```
+
+## Running the Spider
+
+To run the spider in just one command, execute:
+
+```bash
+./run_spider.sh
+```
+
+Note: Ensure the script `run_spider.sh` is executable. If not, make it executable by running `chmod +x run_spider.sh`.
+
+### Inside run_spider.sh
+
+If you're wondering what's inside the `run_spider.sh`, here's a typical structure:
+
+```bash
+#!/bin/bash
+
+# Activate the virtual environment
+source env/bin/activate
+
+# Run the scrapy spider
+scrapy crawl spider_name
+
+# Deactivate the virtual environment after the spider finishes
+deactivate
+```
+
+Make sure to replace `spider_name` with the actual name of your spider.
+
+---
+
+This README assumes that:
+1. The environment folder is named `env`.
+2. The spider can be run using `scrapy crawl spider_name`.
+3. The `run_spider.sh` script is in the root of the `polling_economist` folder.
+
+Adjust the instructions as needed based on the actual structure and requirements of your project.**README.md for polling_economist**
 
 ---
 
@@ -95,7 +152,7 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md)
 
 Nidia Sahjara
 
-For any queries or contributions, feel free to contact at [nidia.sahjara@gmail.com](mailto:nidia.sahjara@gmail.com).
+For any queries or contributions, feel free to contact at [nidia127@gmail.com](mailto:nidia127@gmail.com).
 
 ---
 
@@ -104,4 +161,3 @@ Happy scraping and data processing! 🕷📊🤖
 --- 
 
 **Note**: Remember to replace placeholder text like `<repository_url>`, `[Your Name]`, and `[youremail@example.com]` with the appropriate details.
-

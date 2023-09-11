@@ -152,7 +152,7 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md)
 
 Nidia Sahjara
 
-For any queries or contributions, feel free to contact at [nidia127@gmail.com](mailto:nidia127@gmail.com).
+
 
 ---
 

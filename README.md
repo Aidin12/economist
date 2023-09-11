@@ -43,7 +43,7 @@ If you're wondering what's inside the `run_spider.sh`, here's a typical structur
 source env/bin/activate
 
 # Run the scrapy spider
-scrapy crawl spider_name
+scrapy crawl spider_name (replace spider_name placement with the name of spider: get_polls)
 
 # Deactivate the virtual environment after the spider finishes
 deactivate
